@@ -1,0 +1,1128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E66E95DD8CE17171ED5E65 /* Pods_CareMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBA04FB1C133F23CFACEEFE /* Pods_CareMeUITests.framework */; };
+		19A9985991C4FE84A5DC3446 /* Pods_CareMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237ABC90F0906D11303C358B /* Pods_CareMeTests.framework */; };
+		50134DEA215E2D05004A3946 /* repairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50134DE9215E2D05004A3946 /* repairCell.swift */; };
+		501C5BDE21A0109E00FFD56E /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C5BDD21A0109E00FFD56E /* ChatController.swift */; };
+		501E67A72151A16C00E879D6 /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E67A62151A16C00E879D6 /* Kid.swift */; };
+		50283F8F218CCE9500A07210 /* settingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50283F8E218CCE9500A07210 /* settingsCell.swift */; };
+		502934A721882AE40060CE0A /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 502934A621882AE40060CE0A /* alert.wav */; };
+		503DE181219494CF00AD2CAC /* CallCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DE180219494CF00AD2CAC /* CallCenterVC.swift */; };
+		504C5AE8214C2F2200831F95 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C5AE7214C2F2200831F95 /* LoginVC.swift */; };
+		504C5AEC214C5B9D00831F95 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C5AEB214C5B9D00831F95 /* HomeVC.swift */; };
+		5054B4F1219D838600A1850D /* CustomFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5054B4EF219D838600A1850D /* CustomFooterView.xib */; };
+		5054B4F2219D838600A1850D /* CustomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054B4F0219D838600A1850D /* CustomFooterView.swift */; };
+		5055E866214B37E5001138AD /* ParentGenerateCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E865214B37E5001138AD /* ParentGenerateCodeVC.swift */; };
+		50594E94219ADD1500335A7C /* ListOfChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50594E93219ADD1500335A7C /* ListOfChatsVC.swift */; };
+		506194CD2151819700A1702D /* headerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506194CB2151819700A1702D /* headerCell.swift */; };
+		506194D1215182CD00A1702D /* kidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506194CF215182CD00A1702D /* kidCell.swift */; };
+		506194D42151915300A1702D /* addKidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506194D32151915300A1702D /* addKidCell.swift */; };
+		506B859121A183B5003B0B51 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506B859021A183B5003B0B51 /* ChatMessageCell.swift */; };
+		5087288A216E15B100A2C04F /* ChildMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50872889216E15B100A2C04F /* ChildMenuVC.swift */; };
+		50A185A82159231B00000DD1 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185A72159231B00000DD1 /* RegisterVC.swift */; };
+		50A185AC2159266A00000DD1 /* moreFunctionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185AB2159266A00000DD1 /* moreFunctionsCell.swift */; };
+		50A185AE2159331300000DD1 /* MovementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185AD2159331300000DD1 /* MovementVC.swift */; };
+		50A185B02159333B00000DD1 /* SoundAroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185AF2159333B00000DD1 /* SoundAroundVC.swift */; };
+		50A185B22159335700000DD1 /* SendSignalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185B12159335700000DD1 /* SendSignalVC.swift */; };
+		50A185B42159337C00000DD1 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A185B32159337C00000DD1 /* ChatVC.swift */; };
+		50CB0FC821481690003771C4 /* ChildOrParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB0FC721481690003771C4 /* ChildOrParentVC.swift */; };
+		50CB0FCA21481B30003771C4 /* ChildActivateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB0FC921481B30003771C4 /* ChildActivateVC.swift */; };
+		50CEC4842193B3540054B540 /* PlaceInMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CEC4832193B3540054B540 /* PlaceInMapVC.swift */; };
+		50D07ACD219AB64200DA917B /* MessageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D07ACC219AB64200DA917B /* MessageDetailCell.swift */; };
+		50D07ACF219AB6CA00DA917B /* MessageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D07ACE219AB6CA00DA917B /* MessageDetail.swift */; };
+		50DF58F72147B03500B76BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF58F62147B03500B76BE6 /* AppDelegate.swift */; };
+		50DF58F92147B03500B76BE6 /* LoginOrRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF58F82147B03500B76BE6 /* LoginOrRegisterVC.swift */; };
+		50DF58FC2147B03500B76BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DF58FA2147B03500B76BE6 /* Main.storyboard */; };
+		50DF58FF2147B03500B76BE6 /* CareMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50DF58FD2147B03500B76BE6 /* CareMe.xcdatamodeld */; };
+		50DF59012147B03700B76BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DF59002147B03700B76BE6 /* Assets.xcassets */; };
+		50DF59042147B03700B76BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DF59022147B03700B76BE6 /* LaunchScreen.storyboard */; };
+		50DF590F2147B03700B76BE6 /* CareMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF590E2147B03700B76BE6 /* CareMeTests.swift */; };
+		50DF591A2147B03700B76BE6 /* CareMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF59192147B03700B76BE6 /* CareMeUITests.swift */; };
+		50DF592C2147B40E00B76BE6 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF592B2147B40E00B76BE6 /* Globals.swift */; };
+		50DF592F2147B42800B76BE6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF592E2147B42800B76BE6 /* Extensions.swift */; };
+		50E06E4D2153BEA9000A2AAE /* ChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E06E4C2153BEA9000A2AAE /* ChildVC.swift */; };
+		50E58E00217EF8CB00E62D46 /* KidInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E58DFF217EF8CB00E62D46 /* KidInfo.swift */; };
+		50E58E02217F278A00E62D46 /* NewChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E58E01217F278A00E62D46 /* NewChildVC.swift */; };
+		50FEEE702148066F00E8EAF5 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F442147C14C00710306 /* Montserrat-Black.otf */; };
+		50FEEE712148066F00E8EAF5 /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F452147C14C00710306 /* Montserrat-BlackItalic.otf */; };
+		50FEEE722148066F00E8EAF5 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4E2147C14D00710306 /* Montserrat-Bold.otf */; };
+		50FEEE732148066F00E8EAF5 /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F502147C14D00710306 /* Montserrat-BoldItalic.otf */; };
+		50FEEE742148066F00E8EAF5 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F522147C14E00710306 /* Montserrat-ExtraBold.otf */; };
+		50FEEE752148066F00E8EAF5 /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F482147C14C00710306 /* Montserrat-ExtraBoldItalic.otf */; };
+		50FEEE762148066F00E8EAF5 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4D2147C14D00710306 /* Montserrat-ExtraLight.otf */; };
+		50FEEE772148066F00E8EAF5 /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4C2147C14D00710306 /* Montserrat-ExtraLightItalic.otf */; };
+		50FEEE782148066F00E8EAF5 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F492147C14C00710306 /* Montserrat-Italic.otf */; };
+		50FEEE792148066F00E8EAF5 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F532147C14E00710306 /* Montserrat-Light.otf */; };
+		50FEEE7A2148066F00E8EAF5 /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F552147C14E00710306 /* Montserrat-LightItalic.otf */; };
+		50FEEE7B2148066F00E8EAF5 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4A2147C14D00710306 /* Montserrat-Medium.otf */; };
+		50FEEE7C2148066F00E8EAF5 /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4B2147C14D00710306 /* Montserrat-MediumItalic.otf */; };
+		50FEEE7D2148066F00E8EAF5 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F4F2147C14D00710306 /* Montserrat-Regular.otf */; };
+		50FEEE7E2148066F00E8EAF5 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F562147C14E00710306 /* Montserrat-SemiBold.otf */; };
+		50FEEE7F2148066F00E8EAF5 /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F462147C14C00710306 /* Montserrat-SemiBoldItalic.otf */; };
+		50FEEE802148066F00E8EAF5 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F542147C14E00710306 /* Montserrat-Thin.otf */; };
+		50FEEE812148066F00E8EAF5 /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50357F472147C14C00710306 /* Montserrat-ThinItalic.otf */; };
+		7A7DCDE202E42BE7AE0C2A20 /* Pods_CareMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E921E6FF969BCD6AA44324 /* Pods_CareMe.framework */; };
+		9508829B21E20C9600B83489 /* AdministrativeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828721E20C9400B83489 /* AdministrativeArea.swift */; };
+		9508829C21E20C9600B83489 /* PostalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828821E20C9400B83489 /* PostalCode.swift */; };
+		9508829D21E20C9600B83489 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828921E20C9400B83489 /* Country.swift */; };
+		9508829E21E20C9600B83489 /* FeatureMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828A21E20C9400B83489 /* FeatureMember.swift */; };
+		9508829F21E20C9600B83489 /* Thoroughfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828B21E20C9400B83489 /* Thoroughfare.swift */; };
+		950882A021E20C9600B83489 /* GeocoderResponseMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828C21E20C9500B83489 /* GeocoderResponseMetaData.swift */; };
+		950882A121E20C9600B83489 /* BoundedBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828D21E20C9500B83489 /* BoundedBy.swift */; };
+		950882A221E20C9600B83489 /* GeoObjectCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828E21E20C9500B83489 /* GeoObjectCollection.swift */; };
+		950882A321E20C9600B83489 /* AddressDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508828F21E20C9500B83489 /* AddressDetails.swift */; };
+		950882A421E20C9600B83489 /* Locality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829021E20C9500B83489 /* Locality.swift */; };
+		950882A521E20C9600B83489 /* MetaDataProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829121E20C9500B83489 /* MetaDataProperty.swift */; };
+		950882A621E20C9600B83489 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829221E20C9500B83489 /* Address.swift */; };
+		950882A721E20C9600B83489 /* Envelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829321E20C9500B83489 /* Envelope.swift */; };
+		950882A821E20C9600B83489 /* Premise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829421E20C9500B83489 /* Premise.swift */; };
+		950882A921E20C9600B83489 /* GeocoderMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829521E20C9600B83489 /* GeocoderMetaData.swift */; };
+		950882AA21E20C9600B83489 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829621E20C9600B83489 /* Point.swift */; };
+		950882AB21E20C9600B83489 /* GeoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829721E20C9600B83489 /* GeoObject.swift */; };
+		950882AC21E20C9600B83489 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829821E20C9600B83489 /* Json4Swift_Base.swift */; };
+		950882AD21E20C9600B83489 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829921E20C9600B83489 /* Components.swift */; };
+		950882AE21E20C9600B83489 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508829A21E20C9600B83489 /* Response.swift */; };
+		95EDFDE22222B08500081AEE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EDFDE12222B08500081AEE /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50DF590B2147B03700B76BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DF58EB2147B03500B76BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DF58F22147B03500B76BE6;
+			remoteInfo = CareMe;
+		};
+		50DF59162147B03700B76BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DF58EB2147B03500B76BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DF58F22147B03500B76BE6;
+			remoteInfo = CareMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E921E6FF969BCD6AA44324 /* Pods_CareMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1637E33D8A1D2595E0DDDB4A /* Pods-CareMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareMeTests/Pods-CareMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1836E84E0B4A0F31D10AD5D9 /* Pods-CareMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareMeTests/Pods-CareMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		237ABC90F0906D11303C358B /* Pods_CareMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B665079D7D6EE8B14255DE /* Pods-CareMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareMeUITests/Pods-CareMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50134DE9215E2D05004A3946 /* repairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repairCell.swift; sourceTree = "<group>"; };
+		501C5BDD21A0109E00FFD56E /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		501E67A62151A16C00E879D6 /* Kid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
+		50283F8E218CCE9500A07210 /* settingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsCell.swift; sourceTree = "<group>"; };
+		502934A621882AE40060CE0A /* alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert.wav; sourceTree = "<group>"; };
+		50357F442147C14C00710306 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		50357F452147C14C00710306 /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		50357F462147C14C00710306 /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		50357F472147C14C00710306 /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		50357F482147C14C00710306 /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		50357F492147C14C00710306 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		50357F4A2147C14D00710306 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		50357F4B2147C14D00710306 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		50357F4C2147C14D00710306 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		50357F4D2147C14D00710306 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		50357F4E2147C14D00710306 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		50357F4F2147C14D00710306 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		50357F502147C14D00710306 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		50357F522147C14E00710306 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		50357F532147C14E00710306 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		50357F542147C14E00710306 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		50357F552147C14E00710306 /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		50357F562147C14E00710306 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		503DE180219494CF00AD2CAC /* CallCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCenterVC.swift; sourceTree = "<group>"; };
+		504C5AE7214C2F2200831F95 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		504C5AEB214C5B9D00831F95 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5054B4EF219D838600A1850D /* CustomFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFooterView.xib; sourceTree = "<group>"; };
+		5054B4F0219D838600A1850D /* CustomFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFooterView.swift; sourceTree = "<group>"; };
+		5055E865214B37E5001138AD /* ParentGenerateCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentGenerateCodeVC.swift; sourceTree = "<group>"; };
+		50594E93219ADD1500335A7C /* ListOfChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfChatsVC.swift; sourceTree = "<group>"; };
+		506194CB2151819700A1702D /* headerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerCell.swift; sourceTree = "<group>"; };
+		506194CF215182CD00A1702D /* kidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidCell.swift; sourceTree = "<group>"; };
+		506194D32151915300A1702D /* addKidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addKidCell.swift; sourceTree = "<group>"; };
+		506B859021A183B5003B0B51 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		50872889216E15B100A2C04F /* ChildMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildMenuVC.swift; sourceTree = "<group>"; };
+		50A185A72159231B00000DD1 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		50A185AB2159266A00000DD1 /* moreFunctionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreFunctionsCell.swift; sourceTree = "<group>"; };
+		50A185AD2159331300000DD1 /* MovementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementVC.swift; sourceTree = "<group>"; };
+		50A185AF2159333B00000DD1 /* SoundAroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAroundVC.swift; sourceTree = "<group>"; };
+		50A185B12159335700000DD1 /* SendSignalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSignalVC.swift; sourceTree = "<group>"; };
+		50A185B32159337C00000DD1 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		50CB0FC721481690003771C4 /* ChildOrParentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildOrParentVC.swift; sourceTree = "<group>"; };
+		50CB0FC921481B30003771C4 /* ChildActivateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildActivateVC.swift; sourceTree = "<group>"; };
+		50CEC4832193B3540054B540 /* PlaceInMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInMapVC.swift; sourceTree = "<group>"; };
+		50D07ACC219AB64200DA917B /* MessageDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailCell.swift; sourceTree = "<group>"; };
+		50D07ACE219AB6CA00DA917B /* MessageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetail.swift; sourceTree = "<group>"; };
+		50DF58F32147B03500B76BE6 /* CareMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DF58F62147B03500B76BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50DF58F82147B03500B76BE6 /* LoginOrRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterVC.swift; sourceTree = "<group>"; };
+		50DF58FB2147B03500B76BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50DF58FE2147B03500B76BE6 /* CareMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CareMe.xcdatamodel; sourceTree = "<group>"; };
+		50DF59002147B03700B76BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DF59032147B03700B76BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DF59052147B03700B76BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DF590A2147B03700B76BE6 /* CareMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DF590E2147B03700B76BE6 /* CareMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareMeTests.swift; sourceTree = "<group>"; };
+		50DF59102147B03700B76BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DF59152147B03700B76BE6 /* CareMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DF59192147B03700B76BE6 /* CareMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareMeUITests.swift; sourceTree = "<group>"; };
+		50DF591B2147B03700B76BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DF592B2147B40E00B76BE6 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		50DF592E2147B42800B76BE6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		50E06E4C2153BEA9000A2AAE /* ChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVC.swift; sourceTree = "<group>"; };
+		50E58DFF217EF8CB00E62D46 /* KidInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidInfo.swift; sourceTree = "<group>"; };
+		50E58E01217F278A00E62D46 /* NewChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChildVC.swift; sourceTree = "<group>"; };
+		60FC3C615B836B3A82887053 /* Pods-CareMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareMe/Pods-CareMe.debug.xcconfig"; sourceTree = "<group>"; };
+		61DBE166153C23CF6EC4E67D /* Pods-CareMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareMe/Pods-CareMe.release.xcconfig"; sourceTree = "<group>"; };
+		6FBA04FB1C133F23CFACEEFE /* Pods_CareMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B588129B75EA56060A8F32F /* Pods-CareMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareMeUITests/Pods-CareMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9508828721E20C9400B83489 /* AdministrativeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministrativeArea.swift; sourceTree = "<group>"; };
+		9508828821E20C9400B83489 /* PostalCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostalCode.swift; sourceTree = "<group>"; };
+		9508828921E20C9400B83489 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9508828A21E20C9400B83489 /* FeatureMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureMember.swift; sourceTree = "<group>"; };
+		9508828B21E20C9400B83489 /* Thoroughfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thoroughfare.swift; sourceTree = "<group>"; };
+		9508828C21E20C9500B83489 /* GeocoderResponseMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoderResponseMetaData.swift; sourceTree = "<group>"; };
+		9508828D21E20C9500B83489 /* BoundedBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundedBy.swift; sourceTree = "<group>"; };
+		9508828E21E20C9500B83489 /* GeoObjectCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoObjectCollection.swift; sourceTree = "<group>"; };
+		9508828F21E20C9500B83489 /* AddressDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDetails.swift; sourceTree = "<group>"; };
+		9508829021E20C9500B83489 /* Locality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locality.swift; sourceTree = "<group>"; };
+		9508829121E20C9500B83489 /* MetaDataProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaDataProperty.swift; sourceTree = "<group>"; };
+		9508829221E20C9500B83489 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9508829321E20C9500B83489 /* Envelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Envelope.swift; sourceTree = "<group>"; };
+		9508829421E20C9500B83489 /* Premise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Premise.swift; sourceTree = "<group>"; };
+		9508829521E20C9600B83489 /* GeocoderMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoderMetaData.swift; sourceTree = "<group>"; };
+		9508829621E20C9600B83489 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		9508829721E20C9600B83489 /* GeoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoObject.swift; sourceTree = "<group>"; };
+		9508829821E20C9600B83489 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		9508829921E20C9600B83489 /* Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9508829A21E20C9600B83489 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		95EDFDE12222B08500081AEE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DF58F02147B03500B76BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7DCDE202E42BE7AE0C2A20 /* Pods_CareMe.framework in Frameworks */,
+				95EDFDE22222B08500081AEE /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59072147B03700B76BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A9985991C4FE84A5DC3446 /* Pods_CareMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59122147B03700B76BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E66E95DD8CE17171ED5E65 /* Pods_CareMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A8764DF63B58C6CA018BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60FC3C615B836B3A82887053 /* Pods-CareMe.debug.xcconfig */,
+				61DBE166153C23CF6EC4E67D /* Pods-CareMe.release.xcconfig */,
+				1637E33D8A1D2595E0DDDB4A /* Pods-CareMeTests.debug.xcconfig */,
+				1836E84E0B4A0F31D10AD5D9 /* Pods-CareMeTests.release.xcconfig */,
+				8B588129B75EA56060A8F32F /* Pods-CareMeUITests.debug.xcconfig */,
+				36B665079D7D6EE8B14255DE /* Pods-CareMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50357F422147C12200710306 /* Font Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				50357F442147C14C00710306 /* Montserrat-Black.otf */,
+				50357F452147C14C00710306 /* Montserrat-BlackItalic.otf */,
+				50357F4E2147C14D00710306 /* Montserrat-Bold.otf */,
+				50357F502147C14D00710306 /* Montserrat-BoldItalic.otf */,
+				50357F522147C14E00710306 /* Montserrat-ExtraBold.otf */,
+				50357F482147C14C00710306 /* Montserrat-ExtraBoldItalic.otf */,
+				50357F4D2147C14D00710306 /* Montserrat-ExtraLight.otf */,
+				50357F4C2147C14D00710306 /* Montserrat-ExtraLightItalic.otf */,
+				50357F492147C14C00710306 /* Montserrat-Italic.otf */,
+				50357F532147C14E00710306 /* Montserrat-Light.otf */,
+				50357F552147C14E00710306 /* Montserrat-LightItalic.otf */,
+				50357F4A2147C14D00710306 /* Montserrat-Medium.otf */,
+				50357F4B2147C14D00710306 /* Montserrat-MediumItalic.otf */,
+				50357F4F2147C14D00710306 /* Montserrat-Regular.otf */,
+				50357F562147C14E00710306 /* Montserrat-SemiBold.otf */,
+				50357F462147C14C00710306 /* Montserrat-SemiBoldItalic.otf */,
+				50357F542147C14E00710306 /* Montserrat-Thin.otf */,
+				50357F472147C14C00710306 /* Montserrat-ThinItalic.otf */,
+			);
+			path = "Font Montserrat";
+			sourceTree = "<group>";
+		};
+		504C5AE9214C5B6300831F95 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				50CB0FC721481690003771C4 /* ChildOrParentVC.swift */,
+				50DF58F82147B03500B76BE6 /* LoginOrRegisterVC.swift */,
+				504C5AE7214C2F2200831F95 /* LoginVC.swift */,
+				50E58E01217F278A00E62D46 /* NewChildVC.swift */,
+				50A185A72159231B00000DD1 /* RegisterVC.swift */,
+				5055E865214B37E5001138AD /* ParentGenerateCodeVC.swift */,
+				50CB0FC921481B30003771C4 /* ChildActivateVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		504C5AEA214C5B6F00831F95 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				504C5AEB214C5B9D00831F95 /* HomeVC.swift */,
+				50E06E4C2153BEA9000A2AAE /* ChildVC.swift */,
+				50A185AD2159331300000DD1 /* MovementVC.swift */,
+				50594E93219ADD1500335A7C /* ListOfChatsVC.swift */,
+				50A185B32159337C00000DD1 /* ChatVC.swift */,
+				501C5BDD21A0109E00FFD56E /* ChatController.swift */,
+				503DE180219494CF00AD2CAC /* CallCenterVC.swift */,
+				50A185AF2159333B00000DD1 /* SoundAroundVC.swift */,
+				50A185B12159335700000DD1 /* SendSignalVC.swift */,
+				50CEC4832193B3540054B540 /* PlaceInMapVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		50DF58EA2147B03500B76BE6 = {
+			isa = PBXGroup;
+			children = (
+				50DF58F52147B03500B76BE6 /* CareMe */,
+				50DF590D2147B03700B76BE6 /* CareMeTests */,
+				50DF59182147B03700B76BE6 /* CareMeUITests */,
+				50DF58F42147B03500B76BE6 /* Products */,
+				45A8764DF63B58C6CA018BD3 /* Pods */,
+				E719CB1E1ED8EBC7450A8F09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50DF58F42147B03500B76BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DF58F32147B03500B76BE6 /* CareMe.app */,
+				50DF590A2147B03700B76BE6 /* CareMeTests.xctest */,
+				50DF59152147B03700B76BE6 /* CareMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DF58F52147B03500B76BE6 /* CareMe */ = {
+			isa = PBXGroup;
+			children = (
+				50DF58F62147B03500B76BE6 /* AppDelegate.swift */,
+				502934A621882AE40060CE0A /* alert.wav */,
+				50DF592A2147B3E100B76BE6 /* Resources */,
+				50DF59282147B3D200B76BE6 /* Model */,
+				50DF59292147B3D700B76BE6 /* View */,
+				50DF59272147B3C800B76BE6 /* Controller */,
+				50872889216E15B100A2C04F /* ChildMenuVC.swift */,
+				50DF58FA2147B03500B76BE6 /* Main.storyboard */,
+				50DF59022147B03700B76BE6 /* LaunchScreen.storyboard */,
+				50DF59002147B03700B76BE6 /* Assets.xcassets */,
+				50DF59052147B03700B76BE6 /* Info.plist */,
+				50DF58FD2147B03500B76BE6 /* CareMe.xcdatamodeld */,
+			);
+			path = CareMe;
+			sourceTree = "<group>";
+		};
+		50DF590D2147B03700B76BE6 /* CareMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				50DF590E2147B03700B76BE6 /* CareMeTests.swift */,
+				50DF59102147B03700B76BE6 /* Info.plist */,
+			);
+			path = CareMeTests;
+			sourceTree = "<group>";
+		};
+		50DF59182147B03700B76BE6 /* CareMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50DF59192147B03700B76BE6 /* CareMeUITests.swift */,
+				50DF591B2147B03700B76BE6 /* Info.plist */,
+			);
+			path = CareMeUITests;
+			sourceTree = "<group>";
+		};
+		50DF59272147B3C800B76BE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				504C5AE9214C5B6300831F95 /* Registration */,
+				504C5AEA214C5B6F00831F95 /* Menu */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50DF59282147B3D200B76BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9508829221E20C9500B83489 /* Address.swift */,
+				9508828F21E20C9500B83489 /* AddressDetails.swift */,
+				9508828721E20C9400B83489 /* AdministrativeArea.swift */,
+				9508828D21E20C9500B83489 /* BoundedBy.swift */,
+				9508829921E20C9600B83489 /* Components.swift */,
+				9508828921E20C9400B83489 /* Country.swift */,
+				9508829321E20C9500B83489 /* Envelope.swift */,
+				9508828A21E20C9400B83489 /* FeatureMember.swift */,
+				9508829521E20C9600B83489 /* GeocoderMetaData.swift */,
+				9508828C21E20C9500B83489 /* GeocoderResponseMetaData.swift */,
+				9508829721E20C9600B83489 /* GeoObject.swift */,
+				9508828E21E20C9500B83489 /* GeoObjectCollection.swift */,
+				9508829821E20C9600B83489 /* Json4Swift_Base.swift */,
+				9508829021E20C9500B83489 /* Locality.swift */,
+				9508829121E20C9500B83489 /* MetaDataProperty.swift */,
+				9508829621E20C9600B83489 /* Point.swift */,
+				9508828821E20C9400B83489 /* PostalCode.swift */,
+				9508829421E20C9500B83489 /* Premise.swift */,
+				9508829A21E20C9600B83489 /* Response.swift */,
+				9508828B21E20C9400B83489 /* Thoroughfare.swift */,
+				5054B4F0219D838600A1850D /* CustomFooterView.swift */,
+				5054B4EF219D838600A1850D /* CustomFooterView.xib */,
+				501E67A62151A16C00E879D6 /* Kid.swift */,
+				50E58DFF217EF8CB00E62D46 /* KidInfo.swift */,
+				50D07ACE219AB6CA00DA917B /* MessageDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50DF59292147B3D700B76BE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				506194CB2151819700A1702D /* headerCell.swift */,
+				506194CF215182CD00A1702D /* kidCell.swift */,
+				506194D32151915300A1702D /* addKidCell.swift */,
+				50A185AB2159266A00000DD1 /* moreFunctionsCell.swift */,
+				50134DE9215E2D05004A3946 /* repairCell.swift */,
+				50283F8E218CCE9500A07210 /* settingsCell.swift */,
+				50D07ACC219AB64200DA917B /* MessageDetailCell.swift */,
+				506B859021A183B5003B0B51 /* ChatMessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50DF592A2147B3E100B76BE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50357F422147C12200710306 /* Font Montserrat */,
+				50DF592B2147B40E00B76BE6 /* Globals.swift */,
+				50DF592E2147B42800B76BE6 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E719CB1E1ED8EBC7450A8F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95EDFDE12222B08500081AEE /* StoreKit.framework */,
+				14E921E6FF969BCD6AA44324 /* Pods_CareMe.framework */,
+				237ABC90F0906D11303C358B /* Pods_CareMeTests.framework */,
+				6FBA04FB1C133F23CFACEEFE /* Pods_CareMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DF58F22147B03500B76BE6 /* CareMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DF591E2147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMe" */;
+			buildPhases = (
+				3E10C746C49265A78D6FA5B6 /* [CP] Check Pods Manifest.lock */,
+				50DF58EF2147B03500B76BE6 /* Sources */,
+				50DF58F02147B03500B76BE6 /* Frameworks */,
+				50DF58F12147B03500B76BE6 /* Resources */,
+				25A4A41D7193DE8844A6F5D6 /* [CP] Embed Pods Frameworks */,
+				9728D540B0000BF1EA498DB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareMe;
+			productName = CareMe;
+			productReference = 50DF58F32147B03500B76BE6 /* CareMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50DF59092147B03700B76BE6 /* CareMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DF59212147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMeTests" */;
+			buildPhases = (
+				8DF2D0ECB095AE00157C7EF0 /* [CP] Check Pods Manifest.lock */,
+				50DF59062147B03700B76BE6 /* Sources */,
+				50DF59072147B03700B76BE6 /* Frameworks */,
+				50DF59082147B03700B76BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DF590C2147B03700B76BE6 /* PBXTargetDependency */,
+			);
+			name = CareMeTests;
+			productName = CareMeTests;
+			productReference = 50DF590A2147B03700B76BE6 /* CareMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50DF59142147B03700B76BE6 /* CareMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DF59242147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMeUITests" */;
+			buildPhases = (
+				3F8634C8EE9F67B80F00937B /* [CP] Check Pods Manifest.lock */,
+				50DF59112147B03700B76BE6 /* Sources */,
+				50DF59122147B03700B76BE6 /* Frameworks */,
+				50DF59132147B03700B76BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DF59172147B03700B76BE6 /* PBXTargetDependency */,
+			);
+			name = CareMeUITests;
+			productName = CareMeUITests;
+			productReference = 50DF59152147B03700B76BE6 /* CareMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DF58EB2147B03500B76BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = unicorn;
+				TargetAttributes = {
+					50DF58F22147B03500B76BE6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					50DF59092147B03700B76BE6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 50DF58F22147B03500B76BE6;
+					};
+					50DF59142147B03700B76BE6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 50DF58F22147B03500B76BE6;
+					};
+				};
+			};
+			buildConfigurationList = 50DF58EE2147B03500B76BE6 /* Build configuration list for PBXProject "CareMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DF58EA2147B03500B76BE6;
+			productRefGroup = 50DF58F42147B03500B76BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DF58F22147B03500B76BE6 /* CareMe */,
+				50DF59092147B03700B76BE6 /* CareMeTests */,
+				50DF59142147B03700B76BE6 /* CareMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DF58F12147B03500B76BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FEEE7D2148066F00E8EAF5 /* Montserrat-Regular.otf in Resources */,
+				50FEEE742148066F00E8EAF5 /* Montserrat-ExtraBold.otf in Resources */,
+				50DF59042147B03700B76BE6 /* LaunchScreen.storyboard in Resources */,
+				50DF59012147B03700B76BE6 /* Assets.xcassets in Resources */,
+				50FEEE762148066F00E8EAF5 /* Montserrat-ExtraLight.otf in Resources */,
+				50FEEE792148066F00E8EAF5 /* Montserrat-Light.otf in Resources */,
+				5054B4F1219D838600A1850D /* CustomFooterView.xib in Resources */,
+				50FEEE752148066F00E8EAF5 /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				50FEEE812148066F00E8EAF5 /* Montserrat-ThinItalic.otf in Resources */,
+				50FEEE7B2148066F00E8EAF5 /* Montserrat-Medium.otf in Resources */,
+				50FEEE7E2148066F00E8EAF5 /* Montserrat-SemiBold.otf in Resources */,
+				50FEEE732148066F00E8EAF5 /* Montserrat-BoldItalic.otf in Resources */,
+				50FEEE7F2148066F00E8EAF5 /* Montserrat-SemiBoldItalic.otf in Resources */,
+				50FEEE782148066F00E8EAF5 /* Montserrat-Italic.otf in Resources */,
+				50FEEE772148066F00E8EAF5 /* Montserrat-ExtraLightItalic.otf in Resources */,
+				50FEEE7A2148066F00E8EAF5 /* Montserrat-LightItalic.otf in Resources */,
+				50FEEE7C2148066F00E8EAF5 /* Montserrat-MediumItalic.otf in Resources */,
+				50FEEE702148066F00E8EAF5 /* Montserrat-Black.otf in Resources */,
+				50DF58FC2147B03500B76BE6 /* Main.storyboard in Resources */,
+				50FEEE802148066F00E8EAF5 /* Montserrat-Thin.otf in Resources */,
+				502934A721882AE40060CE0A /* alert.wav in Resources */,
+				50FEEE712148066F00E8EAF5 /* Montserrat-BlackItalic.otf in Resources */,
+				50FEEE722148066F00E8EAF5 /* Montserrat-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59082147B03700B76BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59132147B03700B76BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A4A41D7193DE8844A6F5D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CareMe/Pods-CareMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTSlidingUpPanel/CTSlidingUpPanel.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTSlidingUpPanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareMe/Pods-CareMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E10C746C49265A78D6FA5B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CareMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8634C8EE9F67B80F00937B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CareMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF2D0ECB095AE00157C7EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CareMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9728D540B0000BF1EA498DB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CareMe/Pods-CareMe-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/YandexMapKit/YandexMapKit.framework/Versions/A/Resources/YandexMapKit.bundle",
+				"${PODS_ROOT}/YandexRuntime/YandexRuntime.framework/Versions/A/Resources/YandexRuntime.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YandexMapKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YandexRuntime.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareMe/Pods-CareMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DF58EF2147B03500B76BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950882A921E20C9600B83489 /* GeocoderMetaData.swift in Sources */,
+				50D07ACD219AB64200DA917B /* MessageDetailCell.swift in Sources */,
+				9508829D21E20C9600B83489 /* Country.swift in Sources */,
+				50594E94219ADD1500335A7C /* ListOfChatsVC.swift in Sources */,
+				50E06E4D2153BEA9000A2AAE /* ChildVC.swift in Sources */,
+				9508829F21E20C9600B83489 /* Thoroughfare.swift in Sources */,
+				950882AD21E20C9600B83489 /* Components.swift in Sources */,
+				50DF592F2147B42800B76BE6 /* Extensions.swift in Sources */,
+				950882A421E20C9600B83489 /* Locality.swift in Sources */,
+				504C5AEC214C5B9D00831F95 /* HomeVC.swift in Sources */,
+				506194D42151915300A1702D /* addKidCell.swift in Sources */,
+				50283F8F218CCE9500A07210 /* settingsCell.swift in Sources */,
+				950882A021E20C9600B83489 /* GeocoderResponseMetaData.swift in Sources */,
+				9508829B21E20C9600B83489 /* AdministrativeArea.swift in Sources */,
+				50DF592C2147B40E00B76BE6 /* Globals.swift in Sources */,
+				950882A821E20C9600B83489 /* Premise.swift in Sources */,
+				950882A721E20C9600B83489 /* Envelope.swift in Sources */,
+				9508829C21E20C9600B83489 /* PostalCode.swift in Sources */,
+				506194CD2151819700A1702D /* headerCell.swift in Sources */,
+				5087288A216E15B100A2C04F /* ChildMenuVC.swift in Sources */,
+				950882A621E20C9600B83489 /* Address.swift in Sources */,
+				50A185B02159333B00000DD1 /* SoundAroundVC.swift in Sources */,
+				50D07ACF219AB6CA00DA917B /* MessageDetail.swift in Sources */,
+				50CB0FCA21481B30003771C4 /* ChildActivateVC.swift in Sources */,
+				950882A221E20C9600B83489 /* GeoObjectCollection.swift in Sources */,
+				50134DEA215E2D05004A3946 /* repairCell.swift in Sources */,
+				503DE181219494CF00AD2CAC /* CallCenterVC.swift in Sources */,
+				50CB0FC821481690003771C4 /* ChildOrParentVC.swift in Sources */,
+				5055E866214B37E5001138AD /* ParentGenerateCodeVC.swift in Sources */,
+				50CEC4842193B3540054B540 /* PlaceInMapVC.swift in Sources */,
+				950882A521E20C9600B83489 /* MetaDataProperty.swift in Sources */,
+				50A185A82159231B00000DD1 /* RegisterVC.swift in Sources */,
+				9508829E21E20C9600B83489 /* FeatureMember.swift in Sources */,
+				506B859121A183B5003B0B51 /* ChatMessageCell.swift in Sources */,
+				950882AC21E20C9600B83489 /* Json4Swift_Base.swift in Sources */,
+				50E58E00217EF8CB00E62D46 /* KidInfo.swift in Sources */,
+				504C5AE8214C2F2200831F95 /* LoginVC.swift in Sources */,
+				50E58E02217F278A00E62D46 /* NewChildVC.swift in Sources */,
+				501E67A72151A16C00E879D6 /* Kid.swift in Sources */,
+				50DF58FF2147B03500B76BE6 /* CareMe.xcdatamodeld in Sources */,
+				950882AE21E20C9600B83489 /* Response.swift in Sources */,
+				50DF58F92147B03500B76BE6 /* LoginOrRegisterVC.swift in Sources */,
+				50A185B42159337C00000DD1 /* ChatVC.swift in Sources */,
+				506194D1215182CD00A1702D /* kidCell.swift in Sources */,
+				50A185AE2159331300000DD1 /* MovementVC.swift in Sources */,
+				50DF58F72147B03500B76BE6 /* AppDelegate.swift in Sources */,
+				950882A321E20C9600B83489 /* AddressDetails.swift in Sources */,
+				5054B4F2219D838600A1850D /* CustomFooterView.swift in Sources */,
+				950882A121E20C9600B83489 /* BoundedBy.swift in Sources */,
+				950882AA21E20C9600B83489 /* Point.swift in Sources */,
+				950882AB21E20C9600B83489 /* GeoObject.swift in Sources */,
+				501C5BDE21A0109E00FFD56E /* ChatController.swift in Sources */,
+				50A185B22159335700000DD1 /* SendSignalVC.swift in Sources */,
+				50A185AC2159266A00000DD1 /* moreFunctionsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59062147B03700B76BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DF590F2147B03700B76BE6 /* CareMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF59112147B03700B76BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DF591A2147B03700B76BE6 /* CareMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50DF590C2147B03700B76BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DF58F22147B03500B76BE6 /* CareMe */;
+			targetProxy = 50DF590B2147B03700B76BE6 /* PBXContainerItemProxy */;
+		};
+		50DF59172147B03700B76BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DF58F22147B03500B76BE6 /* CareMe */;
+			targetProxy = 50DF59162147B03700B76BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50DF58FA2147B03500B76BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DF58FB2147B03500B76BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50DF59022147B03700B76BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DF59032147B03700B76BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50DF591C2147B03700B76BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50DF591D2147B03700B76BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DF591F2147B03700B76BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FC3C615B836B3A82887053 /* Pods-CareMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2P5TH45ND;
+				INFOPLIST_FILE = CareMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Careme.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CareMe/Controller/Menu/CareMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50DF59202147B03700B76BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DBE166153C23CF6EC4E67D /* Pods-CareMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2P5TH45ND;
+				INFOPLIST_FILE = CareMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Careme.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CareMe/Controller/Menu/CareMe-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		50DF59222147B03700B76BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1637E33D8A1D2595E0DDDB4A /* Pods-CareMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649M8TPCDZ;
+				INFOPLIST_FILE = CareMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.CareMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareMe.app/CareMe";
+			};
+			name = Debug;
+		};
+		50DF59232147B03700B76BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1836E84E0B4A0F31D10AD5D9 /* Pods-CareMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649M8TPCDZ;
+				INFOPLIST_FILE = CareMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.CareMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareMe.app/CareMe";
+			};
+			name = Release;
+		};
+		50DF59252147B03700B76BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B588129B75EA56060A8F32F /* Pods-CareMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649M8TPCDZ;
+				INFOPLIST_FILE = CareMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.CareMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CareMe;
+			};
+			name = Debug;
+		};
+		50DF59262147B03700B76BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B665079D7D6EE8B14255DE /* Pods-CareMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649M8TPCDZ;
+				INFOPLIST_FILE = CareMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.CareMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CareMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DF58EE2147B03500B76BE6 /* Build configuration list for PBXProject "CareMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DF591C2147B03700B76BE6 /* Debug */,
+				50DF591D2147B03700B76BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DF591E2147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DF591F2147B03700B76BE6 /* Debug */,
+				50DF59202147B03700B76BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DF59212147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DF59222147B03700B76BE6 /* Debug */,
+				50DF59232147B03700B76BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DF59242147B03700B76BE6 /* Build configuration list for PBXNativeTarget "CareMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DF59252147B03700B76BE6 /* Debug */,
+				50DF59262147B03700B76BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50DF58FD2147B03500B76BE6 /* CareMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50DF58FE2147B03500B76BE6 /* CareMe.xcdatamodel */,
+			);
+			currentVersion = 50DF58FE2147B03500B76BE6 /* CareMe.xcdatamodel */;
+			path = CareMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50DF58EB2147B03500B76BE6 /* Project object */;
+}

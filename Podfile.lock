@@ -1,0 +1,55 @@
+PODS:
+  - CTSlidingUpPanel (1.1.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - ModelMapper (9.0.1):
+    - ModelMapper/Core (= 9.0.1)
+  - ModelMapper/Core (9.0.1)
+  - PureLayout (3.1.4)
+  - Starscream (3.0.6)
+  - SwiftKeychainWrapper (3.0.1)
+  - YandexMapKit (3.1.2):
+    - YandexRuntime (~> 3.1)
+  - YandexRuntime (3.1.2)
+
+DEPENDENCIES:
+  - CTSlidingUpPanel
+  - GoogleMaps
+  - GooglePlaces
+  - ModelMapper
+  - PureLayout
+  - Starscream (~> 3.0.2)
+  - SwiftKeychainWrapper
+  - YandexMapKit (~> 3.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTSlidingUpPanel
+    - GoogleMaps
+    - GooglePlaces
+    - ModelMapper
+    - PureLayout
+    - Starscream
+    - SwiftKeychainWrapper
+    - YandexMapKit
+    - YandexRuntime
+
+SPEC CHECKSUMS:
+  CTSlidingUpPanel: cf4905c71f55b69133e19f512be4e512e3749170
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  ModelMapper: 89a61430a75e6265040dc9555ab1feddeb25b986
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  YandexMapKit: 1684642ba0e6431f358fa4299357a43450197542
+  YandexRuntime: b49b1cea8438130323ebe13c52e4eab96325c4c8
+
+PODFILE CHECKSUM: df854a2d0cdafa990cafdbcebfe2f8969fe6cc72
+
+COCOAPODS: 1.5.3
